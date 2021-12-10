@@ -3,8 +3,8 @@
 ## Content
 
 ### Homework 1 
-* Image Classification with ResNet101
-* Semantic Segmentation with DeepLabv3 and ResNet101 as backbone
+* Image Classification with ResNet50
+* Semantic Segmentation with DeepLabv3 and ResNet50 as backbone
 
 ### Homework 2
 * Generative Adversarial Network
