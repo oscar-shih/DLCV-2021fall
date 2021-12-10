@@ -11,6 +11,6 @@
 * ACGAN
 * Domain-Adversarial Neural Network / Domain Separation Network
 
-## Homework 3
+### Homework 3
 * Image Classification with Vision Transformer
 * Image Cpationing with Transformer
