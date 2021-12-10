@@ -4,7 +4,7 @@
 
 ### Homework 1 
 * Image Classification with wide_resnet50_2
-* Semantic Segmentation with DeepLabv3 and wide_resnet50_2 as backbone
+* Semantic Segmentation with DeepLabv3_resnet50 as backbone
 
 ### Homework 2
 * Generative Adversarial Network
