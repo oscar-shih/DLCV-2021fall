@@ -27,7 +27,7 @@ randomseed(1126)
 def main(config):
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     transform = transforms.Compose([
-        transforms.Resize((196, 196)),
+        transforms.Resize((384, 384)),
         transforms.ToTensor(),
         transforms.Normalize(0.5, 0.5),
     ])

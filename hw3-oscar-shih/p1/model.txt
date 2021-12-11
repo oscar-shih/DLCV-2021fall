@@ -1,0 +1,202 @@
+ViT(
+  (patch_embedding): Conv2d(3, 768, kernel_size=(16, 16), stride=(16, 16))
+  (positional_embedding): PositionalEmbedding1D()
+  (transformer): Transformer(
+    (blocks): ModuleList(
+      (0): Block(
+        (attn): MultiHeadedSelfAttention(
+          (proj_q): Linear(in_features=768, out_features=768, bias=True)
+          (proj_k): Linear(in_features=768, out_features=768, bias=True)
+          (proj_v): Linear(in_features=768, out_features=768, bias=True)
+          (drop): Dropout(p=0.1, inplace=False)
+        )
+        (proj): Linear(in_features=768, out_features=768, bias=True)
+        (norm1): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (pwff): PositionWiseFeedForward(
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+        )
+        (norm2): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (drop): Dropout(p=0.1, inplace=False)
+      )
+      (1): Block(
+        (attn): MultiHeadedSelfAttention(
+          (proj_q): Linear(in_features=768, out_features=768, bias=True)
+          (proj_k): Linear(in_features=768, out_features=768, bias=True)
+          (proj_v): Linear(in_features=768, out_features=768, bias=True)
+          (drop): Dropout(p=0.1, inplace=False)
+        )
+        (proj): Linear(in_features=768, out_features=768, bias=True)
+        (norm1): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (pwff): PositionWiseFeedForward(
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+        )
+        (norm2): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (drop): Dropout(p=0.1, inplace=False)
+      )
+      (2): Block(
+        (attn): MultiHeadedSelfAttention(
+          (proj_q): Linear(in_features=768, out_features=768, bias=True)
+          (proj_k): Linear(in_features=768, out_features=768, bias=True)
+          (proj_v): Linear(in_features=768, out_features=768, bias=True)
+          (drop): Dropout(p=0.1, inplace=False)
+        )
+        (proj): Linear(in_features=768, out_features=768, bias=True)
+        (norm1): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (pwff): PositionWiseFeedForward(
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+        )
+        (norm2): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (drop): Dropout(p=0.1, inplace=False)
+      )
+      (3): Block(
+        (attn): MultiHeadedSelfAttention(
+          (proj_q): Linear(in_features=768, out_features=768, bias=True)
+          (proj_k): Linear(in_features=768, out_features=768, bias=True)
+          (proj_v): Linear(in_features=768, out_features=768, bias=True)
+          (drop): Dropout(p=0.1, inplace=False)
+        )
+        (proj): Linear(in_features=768, out_features=768, bias=True)
+        (norm1): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (pwff): PositionWiseFeedForward(
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+        )
+        (norm2): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (drop): Dropout(p=0.1, inplace=False)
+      )
+      (4): Block(
+        (attn): MultiHeadedSelfAttention(
+          (proj_q): Linear(in_features=768, out_features=768, bias=True)
+          (proj_k): Linear(in_features=768, out_features=768, bias=True)
+          (proj_v): Linear(in_features=768, out_features=768, bias=True)
+          (drop): Dropout(p=0.1, inplace=False)
+        )
+        (proj): Linear(in_features=768, out_features=768, bias=True)
+        (norm1): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (pwff): PositionWiseFeedForward(
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+        )
+        (norm2): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (drop): Dropout(p=0.1, inplace=False)
+      )
+      (5): Block(
+        (attn): MultiHeadedSelfAttention(
+          (proj_q): Linear(in_features=768, out_features=768, bias=True)
+          (proj_k): Linear(in_features=768, out_features=768, bias=True)
+          (proj_v): Linear(in_features=768, out_features=768, bias=True)
+          (drop): Dropout(p=0.1, inplace=False)
+        )
+        (proj): Linear(in_features=768, out_features=768, bias=True)
+        (norm1): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (pwff): PositionWiseFeedForward(
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+        )
+        (norm2): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (drop): Dropout(p=0.1, inplace=False)
+      )
+      (6): Block(
+        (attn): MultiHeadedSelfAttention(
+          (proj_q): Linear(in_features=768, out_features=768, bias=True)
+          (proj_k): Linear(in_features=768, out_features=768, bias=True)
+          (proj_v): Linear(in_features=768, out_features=768, bias=True)
+          (drop): Dropout(p=0.1, inplace=False)
+        )
+        (proj): Linear(in_features=768, out_features=768, bias=True)
+        (norm1): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (pwff): PositionWiseFeedForward(
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+        )
+        (norm2): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (drop): Dropout(p=0.1, inplace=False)
+      )
+      (7): Block(
+        (attn): MultiHeadedSelfAttention(
+          (proj_q): Linear(in_features=768, out_features=768, bias=True)
+          (proj_k): Linear(in_features=768, out_features=768, bias=True)
+          (proj_v): Linear(in_features=768, out_features=768, bias=True)
+          (drop): Dropout(p=0.1, inplace=False)
+        )
+        (proj): Linear(in_features=768, out_features=768, bias=True)
+        (norm1): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (pwff): PositionWiseFeedForward(
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+        )
+        (norm2): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (drop): Dropout(p=0.1, inplace=False)
+      )
+      (8): Block(
+        (attn): MultiHeadedSelfAttention(
+          (proj_q): Linear(in_features=768, out_features=768, bias=True)
+          (proj_k): Linear(in_features=768, out_features=768, bias=True)
+          (proj_v): Linear(in_features=768, out_features=768, bias=True)
+          (drop): Dropout(p=0.1, inplace=False)
+        )
+        (proj): Linear(in_features=768, out_features=768, bias=True)
+        (norm1): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (pwff): PositionWiseFeedForward(
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+        )
+        (norm2): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (drop): Dropout(p=0.1, inplace=False)
+      )
+      (9): Block(
+        (attn): MultiHeadedSelfAttention(
+          (proj_q): Linear(in_features=768, out_features=768, bias=True)
+          (proj_k): Linear(in_features=768, out_features=768, bias=True)
+          (proj_v): Linear(in_features=768, out_features=768, bias=True)
+          (drop): Dropout(p=0.1, inplace=False)
+        )
+        (proj): Linear(in_features=768, out_features=768, bias=True)
+        (norm1): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (pwff): PositionWiseFeedForward(
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+        )
+        (norm2): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (drop): Dropout(p=0.1, inplace=False)
+      )
+      (10): Block(
+        (attn): MultiHeadedSelfAttention(
+          (proj_q): Linear(in_features=768, out_features=768, bias=True)
+          (proj_k): Linear(in_features=768, out_features=768, bias=True)
+          (proj_v): Linear(in_features=768, out_features=768, bias=True)
+          (drop): Dropout(p=0.1, inplace=False)
+        )
+        (proj): Linear(in_features=768, out_features=768, bias=True)
+        (norm1): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (pwff): PositionWiseFeedForward(
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+        )
+        (norm2): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (drop): Dropout(p=0.1, inplace=False)
+      )
+      (11): Block(
+        (attn): MultiHeadedSelfAttention(
+          (proj_q): Linear(in_features=768, out_features=768, bias=True)
+          (proj_k): Linear(in_features=768, out_features=768, bias=True)
+          (proj_v): Linear(in_features=768, out_features=768, bias=True)
+          (drop): Dropout(p=0.1, inplace=False)
+        )
+        (proj): Linear(in_features=768, out_features=768, bias=True)
+        (norm1): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (pwff): PositionWiseFeedForward(
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+        )
+        (norm2): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+        (drop): Dropout(p=0.1, inplace=False)
+      )
+    )
+  )
+  (norm): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+  (fc): Linear(in_features=768, out_features=1000, bias=True)
+)
