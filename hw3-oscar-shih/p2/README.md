@@ -1,4 +1,4 @@
-**CA⫶TR**: Image Captioning with Transformers
+**CATR**: Image Captioning with Transformers
 ========
 PyTorch training code and pretrained models for **CATR** (**CA**ption **TR**ansformer).
 
