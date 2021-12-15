@@ -16,4 +16,5 @@
 * Image Cpationing with Transformer
 
 ### Homework 4
-* TBD
+* 5-way 1-shot Prototypical Network
+* Self-Supervised Pretraining for Image Classification
