@@ -13,7 +13,7 @@
 
 ### Homework 3
 * Image Classification with Vision Transformer
-* Image Cpationing with Transformer
+* Image Captioning with Transformer
 
 ### Homework 4
 * 5-way 1-shot Prototypical Network
